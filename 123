@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cтраничка для Ментора<</title>
+  <link rel="stylesheet" href="projectKostyaDannil.CSS"/>    
+</head>	
+<body>
+
+
+
+  <div class="projectKostyaDannil">
+    <header>
+      <div id="header">
+    <img src="img/header.jpg">
+    <img id="sm" src="img/Engine.png">
+    <img id="cross" src="img/cross.png">
+</div>
+
+    <h1><font color="white">Персональная страница МЕНТОРА АХАХА</font></h1>
+  </header>
+  </div>
+
+	<h3><font color="white">Мы вас приветствуем на самом популярном портале о мотоциклах.<br>
+    Здесь вы сможете узнать все,что касается мотоциклов и истории<br>создания этого чуда инженерной мысли.Так же мы вам поможем <br>
+  подобрать мотоцикл для мужчины и женщины.Под конкретный рост и вес</font>
+ 	</h3>
+<i><font color="white">-Пожалуйста заполните форму-</font></i>
+<form>
+  <div id="left-sidebar">
+  <select id="country" name="country">
+  <option value="au">Australia</option>
+  <option value="ca">Canada</option>
+  <option value="usa">USA</option>
+  <option value="ukr">Ukraine</option>
+  </select>
+</div>
+<div>
+  <select id="town" name="country">
+  <option value="ky">Kyiv</option>
+  <option value="od">Odessa</option>
+  <option value="ko">Kolonshina</option>
+  <option value="nv">New Vasyuki</option>
+  </select>
+</div>
+<p><i><font color="white">-Укажите свои личные данные-</font></i></p>
+
+	<ul>
+   <li><label for="fname">Имя</label> <li>
+ <input type="text" id="fname" name="fname">
+ <hr>
+  <li> <label for="lname">фамилия</label> <li>
+  <input type="text" id="lname" name="lname">
+  <hr>
+   <li><label for="lname">рост</label> <li>
+  <input type="text" id="lname" name="lname">
+  <hr>
+   <li><label for="lname">вес</label> <li>
+  <input type="text" id="lname" name="lname">
+  <hr>
+  <li> <label for="lname">телефон</label> <li>
+  <input type="text" id="lname" name="lname">
+  <hr>
+   <li><label for="lname">почта</label> <li>
+  <input type="text" id="lname" name="lname">
+  <hr>
+  <li> <label for="lname">пол</label> <li>
+  <input type="text" id="lname" name="lname">
+  <hr>
+   <li><label for="lname">возраст</label> <li>
+  <input type="text" id="lname" name="lname">  
+</ul>  
+</form>	
+
+
+
+  <footer>
+    Copyright Ментор
+  </footer>
+
+</body>
+</html>
